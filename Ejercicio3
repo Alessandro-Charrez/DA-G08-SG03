@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Smartphone X - Potente, elegante y con la mejor tecnología. Descubre todas sus características y especificaciones técnicas.">
+<title>Smartphone X - Potente y Elegante</title>
+<!-- Open Graph Metadata -->
+<meta property="og:title" content="Smartphone X - Potente y Elegante">
+<meta property="og:description" content="Descubre el Smartphone X: Tecnología avanzada, cámara de alta resolución, y diseño premium.">
+<meta property="og:image" content="https://example.com/images/smartphone-x.jpg">
+<meta property="og:url" content="https://example.com/producto/smartphone-x">
+<meta property="og:type" content="product">
+ 
+    <!-- Twitter Card Metadata -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Smartphone X - Potente y Elegante">
+<meta name="twitter:description" content="El Smartphone X ofrece un rendimiento superior, una cámara excepcional y un diseño impecable. ¡Descúbrelo aquí!">
+<meta name="twitter:image" content="https://example.com/images/smartphone-x.jpg">
+<meta name="twitter:url" content="https://example.com/producto/smartphone-x">
+ 
+    <!-- Link to Stylesheet -->
+<link rel="stylesheet" href="styles.css">
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+ 
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+ 
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+ 
+        .product-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px 0;
+        }
+ 
+        .product-details {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+ 
+        .product-description, .product-specifications {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: calc(50% - 20px);
+            margin: 10px 0;
+        }
+ 
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+ 
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+ 
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+ 
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+ 
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+</style>
+</head>
+<body>
+<header>
+<h1>Smartphone X</h1>
+</header>
+ 
+    <main>
+<img src="https://example.com/images/smartphone-x.jpg" alt="Smartphone XYZ" class="product-image">
+ 
+        <div class="product-details">
+<section class="product-description">
+<h2>Descripción del Producto</h2>
+<p>El Smartphone X es la combinación perfecta de potencia y elegancia. Con un procesador de última generación, una cámara de alta resolución y un diseño premium, este dispositivo está diseñado para satisfacer las necesidades de los usuarios más exigentes.</p>
+<p>Además de su rendimiento superior, el Smartphone X ofrece una batería de larga duración, almacenamiento ampliable, y una pantalla de alta definición que proporciona una experiencia visual inigualable.</p>
+</section>
+ 
+            <section class="product-specifications">
+<h2>Especificaciones Técnicas</h2>
+<table>
+<tr>
+<th>Características</th>
+<th>Detalles</th>
+</tr>
+<tr>
+<td>Pantalla</td>
+<td>6.5 pulgadas, 1080 x 2400 píxeles</td>
+</tr>
+<tr>
+<td>Procesador</td>
+<td>Octa-core 2.8 GHz</td>
+</tr>
+<tr>
+<td>Cámara Principal</td>
+<td>64 MP + 12 MP + 8 MP</td>
+</tr>
+<tr>
+<td>Cámara Frontal</td>
+<td>32 MP</td>
+</tr>
+<tr>
+<td>Batería</td>
+<td>5000 mAh, carga rápida de 30W</td>
+</tr>
+<tr>
+<td>Sistema Operativo</td>
+<td>Android 12</td>
+</tr>
+<tr>
+<td>Almacenamiento</td>
+<td>128 GB, expandible hasta 1 TB con microSD</td>
+</tr>
+<tr>
+<td>Conectividad</td>
+<td>4G LTE, Wi-Fi 6, Bluetooth 5.1, NFC</td>
+</tr>
+</table>
+</section>
+</div>
+</main>
+ 
+    <footer>
+<p>&copy; 2024. Todos los derechos reservados.</p>
+</footer>
+</body>
+</html>
