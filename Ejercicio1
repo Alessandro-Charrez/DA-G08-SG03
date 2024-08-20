@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portafolio profesional de Alessandro Charrez Cerpa">
+<title>Portafolio de Alessandro Charrez Cerpa</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+
+        /* Estilos básicos */
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            margin: 0;
+
+            padding: 0;
+
+            background-color: #f4f4f4;
+
+        }
+ 
+        header, footer {
+
+            background-color: #111;
+
+            color: #fff;
+
+            text-align: center;
+
+            padding: 20px;
+
+        }
+ 
+        nav ul {
+
+            list-style: none;
+
+            padding: 0;
+
+        }
+ 
+        nav ul li {
+
+            display: inline;
+
+            margin: 0 10px;
+
+        }
+ 
+        nav ul li a {
+
+            color: #fff;
+
+            text-decoration: none;
+
+        }
+ 
+        main {
+
+            display: flex;
+
+            flex-wrap: wrap;
+
+            justify-content: space-around;
+
+            padding: 20px;
+
+        }
+ 
+        section {
+
+            background-color: #fff;
+
+            border-radius: 10px;
+
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+            margin: 20px;
+
+            padding: 20px;
+
+            width: calc(50% - 40px);
+
+            box-sizing: border-box;
+
+        }
+ 
+        h2 {
+
+            border-bottom: 2px solid #333;
+
+            padding-bottom: 10px;
+
+            margin-bottom: 20px;
+
+            color: #333;
+
+        }
+ 
+        footer p {
+
+            margin: 10px 0;
+
+            font-size: 0.8em;
+
+        }
+ 
+        @media (max-width: 768px) {
+
+            section {
+
+                width: calc(100% - 40px);
+
+            }
+
+        }
+</style>
+</head>
+<body>
+<header>
+<h1>Alessandro Charrez Cerpa</h1>
+<nav>
+<ul>
+<li><a href="#sobre-mi">Sobre mí</a></li>
+<li><a href="#habilidades">Habilidades</a></li>
+<li><a href="#experiencia">Experiencia</a></li>
+<li><a href="#proyectos">Proyectos</a></li>
+<li><a href="#contacto">Contacto</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<section id="sobre-mi">
+<h2>Sobre mí</h2>
+<p>Soy estudiante de Ingeniería de Sistemas en la Universidad Católica de Santa María (UCSM), con 20 años de edad. Estoy comprometido con mi desarrollo académico y profesional, buscando siempre nuevas oportunidades para aplicar mis conocimientos en el campo de la tecnología.</p>
+</section>
+<section id="habilidades">
+<h2>Habilidades</h2>
+<ul>
+<li>Pensamiento crítico y analítico</li>
+<li>Resolución de problemas</li>
+<li>Capacidad de trabajo en equipo</li>
+<li>Aprendizaje continuo</li>
+<li>Lectura y comprensión de documentación técnica</li>
+</ul>
+</section>
+<section id="experiencia">
+<h2>Experiencia</h2>
+<article>
+<h3>Estudiante de Ingeniería de Sistemas - UCSM</h3>
+<p>Actualmente, curso estudios en la UCSM, donde me especializo en el desarrollo de soluciones tecnológicas y la gestión de proyectos informáticos. Mi enfoque está en adquirir una sólida base de conocimientos en programación, bases de datos, y redes, con miras a convertirme en un profesional integral en el campo de las TI.</p>
+</article>
+</section>
+<section id="proyectos">
+<h2>Proyectos</h2>
+<article>
+<h3>Proyecto: Entendiendo HTML y CSS</h3>
+<p>En este proyecto, desarrollé una serie de páginas web utilizando HTML y CSS, enfocándome en comprender y aplicar las mejores prácticas en diseño web. Este proyecto me permitió fortalecer mis habilidades en maquetación y estilización de interfaces de usuario.</p>
+</article>
+</section>
+</main>
+<footer>
+<section id="contacto">
+<h2>Contacto</h2>
+<p>Correo: <a href="mailto:alessandro.charrez@ucsm.edu.pe">alessandro.charrez@ucsm.edu.pe</a></p>
+</section>
+<p>&copy; 2024 Alessandro Charrez Cerpa. Todos los derechos reservados.</p>
+</footer>
+</body>
+</html>
+ 
