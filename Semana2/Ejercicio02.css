@@ -16,6 +16,7 @@ header h1 {
     color: greenyellow;
     margin: 0;
     font-size: 4em;
+
 }
 
 nav ul {
@@ -27,8 +28,14 @@ nav ul {
     gap: 1em;
 }
 
+/* se añadio efecto de transicion para agrandar los elementos del menu de navegacion al pasar por el cursor*/
 nav ul li {
     font-size: 1.2em;
+    transition: transform 0.3s ease;
+}
+
+nav ul li:hover {
+    transform: scale(1.1);
 }
 
 nav ul li a {
@@ -71,13 +78,21 @@ section p {
     justify-content: center;
 }
 
+/* transicion y efecto de animacion en las imagenes */
 .gallery img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 
-/* Dispositivos grandes*/
+.gallery img:hover {
+    transform: scale(1.1) translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    /* aplicando sombra */
+}
+
+/* Dispositivos grandes */
 @media (min-width: 768px) {
     header h1 {
         font-size: 6em;
@@ -98,7 +113,7 @@ section p {
     }
 }
 
-/* Dispositvos pequeños*/
+/* Dispositivos pequeños */
 @media (max-width: 767px) {
     nav ul {
         flex-direction: column;
