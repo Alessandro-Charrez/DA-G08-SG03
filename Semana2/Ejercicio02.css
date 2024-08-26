@@ -1,0 +1,140 @@
+body {
+    font-family: 'Creepster', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+    color: greenyellow;
+    margin: 0;
+    font-size: 4em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1em 0;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+nav ul li {
+    font-size: 1.2em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+section h2 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+section p {
+    font-size: 1.2em;
+    color: #333;
+    text-align: justify;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Dispositivos grandes*/
+@media (min-width: 768px) {
+    header h1 {
+        font-size: 6em;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2em;
+    }
+
+    section {
+        margin-bottom: 0;
+    }
+
+    .gallery img {
+        max-width: calc(33% - 1em);
+    }
+}
+
+/* Dispositvos pequeños*/
+@media (max-width: 767px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    header h1 {
+        font-size: 5em;
+    }
+
+    section h2 {
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 0.9rem;
+    }
+
+    header h1 {
+        font-size: 3em;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+
+    .gallery img {
+        max-width: calc(100% - 1em);
+    }
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+}
