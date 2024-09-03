@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Grid</title>
+    <link rel="stylesheet" href="diseño2.css">
+</head>
+<body>
+    <main class="grid-container">
+        <div class="item1">La vida es algo bella.</div>
+        <div class="item2">A bailar</div>
+        <div class="item3">Tenemos que disfrutar la vida</div>
+        <div class="item4">la vida en el planeta es hermosa</div>
+        <div class="item5">bailale bailale</div>
+        <div class="item6">Popular</div>
+        <div class="item7">Amo los juegos </div>
+        <div class="item8">Adisfrutar la mjor experiencia</div>
+        <div class="item9">iCloud</div>
+    </main>
+</body>
+</html>
