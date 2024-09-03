@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.learn-button {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 2px solid black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.learn-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    flex: 1 1 30%;
+    margin: 10px;
+}
+
+.feature img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 900px) {
+    .features {
+        flex-direction: row;
+    }
+
+    .feature {
+        flex: 1 1 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature {
+        flex: 1 1 100%;
+    }
+}
