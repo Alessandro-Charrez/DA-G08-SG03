@@ -1,0 +1,65 @@
+{ 
+    let variableDeBloque = 10; // Variable de bloque 
+    const constanteDeBloque = 20; // Constante de bloque 
+
+    console.log(variableDeBloque); // 10 
+    console.log(constanteDeBloque); // 20 
+} 
+
+console.log(variableDeBloque); // Error 
+console.log(constanteDeBloque); // Error 
+
+//////
+
+console.log(x === undefined); // true 
+var x = 3; 
+
+var myvar = 'my value'; 
+(function() { 
+    console.log(myvar); // undefined 
+    var myvar = 'valor local'; 
+})(); 
+
+/////
+
+let a; 
+console.log(a); // undefined 
+function externa() { 
+    let varExterna = 'Variable externa'; 
+
+    function interna() { 
+        let varInterna = 'Variable interna'; 
+        console.log(varExterna); // Accede a la variable externa 
+        console.log(varInterna); // Accede a la variable interna 
+    } 
+
+    interna(); 
+    console.log(varInterna); // Error: varInterna no está definida en este ámbito 
+} 
+
+externa(); 
+
+//////
+
+var answer = 42; 
+answer = 'Gracias por todo el pescado...'; 
+console.log(answer); // 'Gracias por todo el pescado...' 
+
+console.log(parseInt("F", 16)); // 15 
+console.log(parseInt("17", 8)); // 15 
+console.log(parseInt("15", 10)); // 15 
+console.log(parseInt(15.99, 10)); // 15 
+console.log(parseInt("FXX123", 16)); // 15 
+console.log(parseInt("1111", 2)); // 15 
+console.log(parseInt("15*3", 10)); // 15 
+console.log(parseInt("12", 13)); // 15 
+console.log(parseInt("Hello", 8)); // NaN 
+console.log(parseInt("0x7", 10)); // 0 
+console.log(parseInt("546", 2)); // NaN 
+
+var howMany = 10; 
+alert("howMany.toString() is " + howMany.toString()); // "10" 
+alert("45 .toString() is " + (45).toString()); // "45" 
+
+var x = 7; 
+alert(x.toString(2)); // "111" (binario) 
