@@ -1,0 +1,78 @@
+const persona = { 
+    nombre: "Juan", 
+    edad: 30, 
+    saludar: function() { 
+        console.log("Hola, soy " + this.nombre); 
+    } 
+}; 
+persona.saludar(); // "Hola soy Paco" 
+
+//////
+
+function Persona(nombre, edad) { 
+    this.nombre = nombre; 
+    this.edad = edad; 
+    this.saludar = function() { 
+        console.log("Hola, soy " + this.nombre); 
+    }; 
+} 
+const juan = new Persona("Juan", 30); 
+juan.saludar(); // "Hola, soy Juan" 
+
+//////
+
+function Persona(nombre, edad) { 
+    this.nombre = nombre; 
+    this.edad = edad; 
+    this.saludar = function() { 
+        console.log("Hola, soy " + this.nombre); 
+    }; 
+} 
+const juan = new Persona("Juan", 30); 
+juan.saludar(); // "Hola soy Paco" 
+
+///////
+
+const personaPrototype = { 
+    saludar: function() { 
+        console.log("Hola, soy " + this.nombre); 
+    } 
+}; 
+const juan = Object.create(personaPrototype); 
+juan.nombre = "Juan"; 
+juan.edad = 30; 
+juan.saludar(); // "Hola soy Paco" 
+
+//////
+
+const coche = { 
+    marca: "Toyota", 
+    modelo: "Corolla", 
+    año: 2020 
+}; 
+coche.color = "rojo"; // Añadir propiedad después de la creación
+
+//////
+
+function Coche(marca, modelo, año) { 
+    this.marca = marca; 
+    this.modelo = modelo; 
+    this.año = año; 
+} 
+const miCoche = new Coche("Toyota", "Corolla", 2020); 
+miCoche.color = "rojo"; // Añadir propiedad después de la creación 
+
+//////
+
+const cochePrototype = { 
+    detalles: function() { 
+        console.log(this.marca + " " + this.modelo); 
+    } 
+}; 
+const miCoche = Object.create(cochePrototype); 
+miCoche.marca = "Toyota"; 
+miCoche.modelo = "Corolla"; 
+miCoche.año = 2020; 
+miCoche.color = "rojo"; // Añadir propiedad después de la creación 
+
+//////
