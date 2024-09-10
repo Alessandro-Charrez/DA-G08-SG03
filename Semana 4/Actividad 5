@@ -1,0 +1,87 @@
+function mostrarPropiedadesWindow() { 
+    console.log(window); // Muestra todas las propiedades del objeto window 
+} 
+mostrarPropiedadesWindow(); 
+
+//////
+
+function usarMetodosWindow() { 
+    // Muestra una alerta 
+    window.alert("Este es un método de window"); 
+
+    // Abre una nueva ventana 
+    let nuevaVentana = window.open("https://www.google.com", "_blank"); 
+
+    // Imprime el tamaño de la ventana 
+    console.log("Ancho de la ventana: " + window.innerWidth); 
+    console.log("Altura de la ventana: " + window.innerHeight); 
+
+    // Cierra la nueva ventana 
+    nuevaVentana.close(); 
+} 
+usarMetodosWindow(); 
+
+///////
+
+function mostrarPropiedadesArray() { 
+    let miArray = [1, 2, 3, 4, 5]; 
+    console.log(miArray); // Muestra todas las propiedades y métodos del array 
+    console.log("Longitud del array: " + miArray.length); // Muestra la longitud 
+} 
+mostrarPropiedadesArray(); 
+
+///////
+
+function usarMetodosArray() { 
+    let miArray = [10, 20, 30, 40, 50]; 
+
+    // Método push: Añade un elemento al final 
+    miArray.push(60); 
+    console.log("Después de push: " + miArray); 
+
+    // Método pop: Elimina el último elemento 
+    miArray.pop(); 
+    console.log("Después de pop: " + miArray); 
+
+    // Método join: Convierte el array en un string 
+    console.log("Array como string: " + miArray.join(", ")); 
+
+    // Método reverse: Invierte el orden del array 
+    miArray.reverse(); 
+    console.log("Array invertido: " + miArray); 
+} 
+usarMetodosArray(); 
+
+///////
+
+function mostrarPropiedadesNumber() { 
+    let miNumero = 123.456; 
+    console.log(miNumero); // Muestra el número 
+    console.log("Máximo valor posible: " + Number.MAX_VALUE); // Muestra el valor máximo de un número en JS 
+    console.log("Mínimo valor posible: " + Number.MIN_VALUE); // Muestra el valor mínimo 
+} 
+mostrarPropiedadesNumber(); 
+
+//////
+
+function usarMetodosNumber() { 
+
+    let miNumero = 123.456; 
+
+    // Método toFixed: Limita los decimales 
+    console.log("Número con 2 decimales: " + miNumero.toFixed(2)); 
+
+    // Método toExponential: Convierte a notación exponencial 
+    console.log("Número en notación exponencial: " + miNumero.toExponential(2)); 
+
+    // Método isInteger: Verifica si es un número entero 
+    console.log("¿Es entero? " + Number.isInteger(miNumero)); 
+
+    // Método parseInt: Convierte una cadena a un entero 
+    let numeroComoCadena = "456"; 
+    console.log("Convertido a entero: " + Number.parseInt(numeroComoCadena)); 
+} 
+usarMetodosNumber(); 
+
+///////
+
