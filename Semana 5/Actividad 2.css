@@ -1,0 +1,34 @@
+///Instalación de Sass
+npm install -g sass
+
+///Reproducion
+$primary-color: #333;
+
+body {
+  font-family: Arial, sans-serif;
+  color: $primary-color;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: lighten($primary-color, 20%);
+    margin: 10px;
+  }
+}
+
+///Copilacion Sass
+sass input.scss output.css
+
+///Analisis del coportamiento
+@for $i from 1 through 5 {
+    .box-#{$i} {
+      width: 100px * $i;
+      height: 100px * $i;
+      background-color: lighten($primary-color, $i * 5%);
+    }
+  }
+  
