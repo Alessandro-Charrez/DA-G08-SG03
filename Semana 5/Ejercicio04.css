@@ -1,0 +1,12 @@
+
+.portfolio-section, .about-section, .contact-section {
+    padding: 50px 0;
+}
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+}
+#modificar {
+    width: 30%; 
+    height: auto; 
+}
