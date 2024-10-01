@@ -1,12 +1,12 @@
 
-const Header = () => {
+
+const Header = ({ title }) => {
     return (
         <header>
-            <h1>Alien Covenant</h1>
+            <h1>{title}</h1>
         </header>
     );
 };
-
 
 const MainContent = () => {
     return (
@@ -16,26 +16,23 @@ const MainContent = () => {
     );
 };
 
-
-const Footer = () => {
+const Footer = ({ message }) => {
     return (
         <footer>
-            <p>&copy; Todos los derechos reservados</p>
+            <p>{message}</p>
         </footer>
     );
 };
 
-
 const App = () => {
     return (
         <div>
-            <Header />
+            <Header title="Alien Covenant" />
             <MainContent />
-            <Footer />
+            <Footer message="&copy; Todos los derechos reservados" />
         </div>
     );
 };
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
