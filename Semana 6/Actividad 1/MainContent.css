@@ -1,0 +1,21 @@
+.main-content {
+    padding: 20px;
+    font-size: 16px;
+}
+
+.main-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.main-content li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
